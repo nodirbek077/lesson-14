@@ -6,6 +6,15 @@ public class Person {
     public Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
-        country = "Uzbekistan";
+        this.country = "Uzbekistan";
+    }
+
+    public void printDetail(){
+        System.out.println(name + " " + surname + " " + country);
+        this.sayHello();
+    }
+
+    public void sayHello(){
+        System.out.println("Hello");
     }
 }
