@@ -3,11 +3,6 @@ public class Person {
     String surname;
     String country;
 
-
-    public Person() {
-        country = "Uzbekistan";
-    }
-
     public Person(String personName, String personSurname) {
         name = personName;
         surname = personSurname;
