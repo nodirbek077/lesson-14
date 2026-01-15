@@ -4,8 +4,10 @@ public class Main {
         person1.name = "Alish";
         person1.surname = "Aliyev";
 
-        Person person2 = new Person();
+        Person person2 = new Person("Valish");
         person2.name = "Valish";
+
+        Person person3 = new Person("Toshmat", "Toshmatov");
 
         System.out.println(person1.name + " " + person1.surname);
         System.out.println(person2.name);
