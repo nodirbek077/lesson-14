@@ -1,16 +1,16 @@
 public class Person {
     String name;
     String surname;
+    String country;
 
-    public Person(){
-        System.out.println("Person Constructor");
-    }
 
-    public Person(String personName) {
-        System.out.println(personName);
+    public Person() {
+        country = "Uzbekistan";
     }
 
     public Person(String personName, String personSurname) {
-        System.out.println(personName + " " + personSurname);
+        name = personName;
+        surname = personSurname;
+        country = "Uzbekistan";
     }
 }

@@ -1,15 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Person person1 = new Person();
-        person1.name = "Alish";
-        person1.surname = "Aliyev";
+        Person person1 = new Person("Alish", "Aliyev");
 
-        Person person2 = new Person("Valish");
-        person2.name = "Valish";
-
-        Person person3 = new Person("Toshmat", "Toshmatov");
-
-        System.out.println(person1.name + " " + person1.surname);
-        System.out.println(person2.name);
+        System.out.println(person1.name + " " + person1.surname + " " + person1.country);
     }
 }
