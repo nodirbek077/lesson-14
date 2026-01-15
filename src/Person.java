@@ -3,9 +3,9 @@ public class Person {
     String surname;
     String country;
 
-    public Person(String personName, String personSurname) {
-        name = personName;
-        surname = personSurname;
+    public Person(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
         country = "Uzbekistan";
     }
 }
